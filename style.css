@@ -138,7 +138,8 @@ body {
 }
 
 .action-btn:hover {
-    background: #0AA0E2;
+    background: #643fe0;
+    color: white;
 
 }
 

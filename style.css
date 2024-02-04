@@ -54,7 +54,7 @@ body {
     align-items: center;
     height: 100%;
     width: 80vw;
-    background-color: rgba(255, 255, 255, 0.251);
+    background-color: rgba(255, 255, 255, 0.252);
     backdrop-filter: blur(20px);
     border-radius: 25px;
     padding-top: 1rem;
@@ -72,9 +72,9 @@ body {
     justify-content: space-between;
     padding: 10px;
 
-
-
 }
+
+
 
 .img-container {
     width: 90%;
@@ -155,6 +155,64 @@ body {
     opacity: 1;
 }
 
+
+.max {
+    
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5rem;
+    align-items: center;
+    height: 100%;
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.251);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.115);
+    display: flex;
+}
+.box{
+    width: 30vw;
+    height: 100%;
+    align-items: center;
+    padding: 7px;
+}
+
+.max input{
+    background: rgba(255, 255, 255, 0.526);
+    backdrop-filter: blur(30px);
+    padding: 8px 25px;
+    border-radius: 25px;
+    border: rgba(255, 255, 255, 0.251);
+    color: rgb(238, 146, 25);
+}
+
+
+.enter{
+    padding: 8px;
+
+    margin-right: 20px;
+    border-radius: 60px;
+    margin-left: 10px;
+    
+}
+.enter:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.151);
+}
+.mail-btn{
+    width: 50%;
+    padding-inline:20px ;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    justify-content: center;
+    display: flex;  
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, alpha);
+}
+
+
 @media (max-width: 768px) {
     body {
         background: linear-gradient(to bottom right, pink, green);
@@ -179,8 +237,8 @@ body {
     }
 
     .card {
-        width: 400px;
-        height: 350px;
+        width: 200px;
+        height: 250px;
 
     }
 
@@ -188,6 +246,42 @@ body {
         font-size: 1.5rem;
         text-align: center;
     }
+
+    .max {
+    
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .box{
+        width: 60vw;
+        height: 100%;
+        
+        padding: 7px;
+        
+    }
+    
+    .max input{
+        background: rgba(255, 255, 255, 0.526);
+        backdrop-filter: blur(30px);
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: rgba(255, 255, 255, 0.251);
+    }
+    
+    .mail-btn{
+        display: flex;
+        justify-content: center;
+        
+        margin-left: 30px;
+    }
+    .mail-btn input{
+        padding: 0 12px;
+    }
+    
 
 
 }
@@ -227,20 +321,22 @@ body {
         padding-right: 8px;
         gap: 20px;
     }
-    .img img{
+
+    .img img {
         position: absolute;
     }
 
-    
-    .card{
+
+    .card {
         height: 100px;
         width: 100px;
         overflow: hidden;
         position: relative;
     }
 
-    
+
 }
+
 @media (max-width:200px) {
 
     .container {
@@ -256,14 +352,15 @@ body {
         padding-right: 8px;
         gap: 20px;
     }
-   
+
     .card .content {
         width: 50px;
         height: 40px;
         overflow: hidden;
-        position:absolute;
+        position: absolute;
         padding: 6px;
     }
+
     .img-container {
         width: 90%;
         margin: 0 auto;
